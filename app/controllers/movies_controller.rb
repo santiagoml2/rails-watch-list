@@ -29,7 +29,7 @@ class MoviesController < ApplicationController
     if @movie.update(movie_params)
       redirect_to movie_path(@movie)
     else
-      render :edit
+      render :new
     end
   end
 
