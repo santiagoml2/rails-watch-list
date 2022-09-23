@@ -303,7 +303,18 @@
 }
 
 .box-poster {
-  width: 250px;
+  width: 300px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border: 1px;
+  border-color: #ff0079;
+  border-radius: 10px;
+  align-content: center;
+
+  a {
+    text-decoration: none;
+    color: #150e56;
+    font-weight: bold;
+  }
 }
 
 .movies-grid {
@@ -424,8 +435,6 @@
 }
 
 .show-movie-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+  width: 290px;
+  border-radius: 10px;
 }
